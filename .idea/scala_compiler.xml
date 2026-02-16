@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="Scala" />
+    <profile name="sbt 2" modules="Scala.main,Scala.test">
+      <parameters>
+        <parameter value="-Wnonunit-statement" />
+      </parameters>
+    </profile>
+  </component>
+</project>
