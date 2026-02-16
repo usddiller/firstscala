@@ -1,5 +1,4 @@
 package com.rockthejvm.part1basics
-
 object Expressions {
 
   def greeting(name:String,age:Int):String= {
